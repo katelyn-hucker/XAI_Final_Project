@@ -1,7 +1,7 @@
 # XAI_Final_Project: Analyzing YOLOv8 performance on occluded cones and visible cones with explainable techniques.
-## This project assesses LIME, SHAP, Class Activation Mapping (CAM) for the Nuscenes dataset with YOLOv8
-## Dr. Brinnae Bent Duke AIPI 590
-## Katie Hucker (kh509)
+### This project assesses LIME, SHAP, Class Activation Mapping (CAM) for the Nuscenes dataset with YOLOv8
+####  Duke AIPI 590 with Dr. Brinnae Bent
+### Katie Hucker (kh509)
 
 ### Introduction:
 The three methods are compared with 2 images. These 2 images were labeled in the Nuscenes dataset as either 1-40% visible cones or 80-100% visible cones. We test the modes on a fine-tuned YOLOv8 model which learned what cones and only cones were for a MIDS Capstone project. The visibilty levels were manually labeled by professional annotators. We wanted to assess what parts of the cone are most helpful or if YOLO shows bias between the occluded cones or visible cones. In addition, how do the three explainable methods do with the different visibility levels and with YOLO. 
